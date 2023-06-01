@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
   cors({
-    origin: "deploytest-frontend.vercel.app" ,
+    origin: "deploytest-app.vercel.app" ,
   })
 );
 
