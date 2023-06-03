@@ -20,7 +20,7 @@
     "express": "^4.17.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^2.2.12",
+    "mongodb": "^2.2.36",
     "mongoose": "^6.1.9",
     "vercel": "^30.0.0"
   },
