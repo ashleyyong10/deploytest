@@ -14,9 +14,12 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+const DEV_API = "http://localhost:3000"
+const PROD_API = "https://deploytest-frontend.vercel.app"
+
 app.use(
   cors({
-    origin: "https://deploytest-frontend.vercel.app",
+    origin: PROD_API,
   })
 );
 
