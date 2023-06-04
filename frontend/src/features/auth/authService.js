@@ -1,6 +1,9 @@
 import axios from "axios";
 
-const API_URL = "https://deploytest-backend.vercel.app/api/users/";
+const DEV_API = "http://localhost:8000"
+const PROD_API = "https://deploytest-backend.vercel.app"
+
+const API_URL = PROD_API + "/api/users/"
 
 // Register user
 const register = async (userData) => {
